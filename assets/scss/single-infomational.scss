@@ -1,0 +1,125 @@
+#single-banner{
+    .row{
+        .title-review{
+            .single-author{
+                .date{
+                    margin-bottom: 0;
+                    display: inline;
+                    span{
+                        display: inline;
+                    }
+                }
+                .name-author{
+                    border-right: 1px solid #81838C;
+                    padding-right: 8px;
+                }
+            }
+        }
+    }
+}
+#content.infomational{
+    .box-main-content{
+        gap: 24px;
+        .content-table.left{
+            width: 18.2%;
+            .table-title{
+                ul{
+                    li{
+                        a{
+                            padding: 0 16px;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .content-main{
+            width: 52.3%;
+            margin-bottom: 0;
+            img{
+                height: 312px;
+            }
+            .note{
+                padding: 16px;
+                margin-bottom: 16px;
+                h2{
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #0082BE;
+                }
+                .logo{
+                    width: 90px;
+                    height: 24px;
+                    text-align: right;
+                    display: block;
+                }
+            }
+            .product-best{
+                li::before{
+                    top: 0;
+                }
+                li{
+                    h3{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    .step{
+                        counter-reset: step;
+                        list-style: none;
+                        li{
+                            margin-bottom: 16px;
+                            position: relative;
+                            h4{
+                                padding-left: 55px;
+                                font-weight: 600;
+                                font-size: 14px;
+                                letter-spacing: -0.5px;
+                                line-height: 20px;
+                                color: #202020;
+                            }
+                            .dot-pink{
+                                list-style-image: url('../img/single/cicer.svg');
+                                list-style-position: outside;
+                                margin-left: 14px;
+                                h5{
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    letter-spacing: -0.5px;
+                                    color: #151515;
+                                }
+                                li{
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    letter-spacing: -0.5px;
+                                    margin-bottom: 8px;
+                                    color: #81838C;
+                                }
+                                li::before{
+                                    counter-increment: none;
+                                    content: "";
+                                }
+                            }
+                        }
+                        li::before{
+                            counter-increment: step;
+                            content:"Step " counter(step) ". ";
+                            background: none;
+                            width: 50px;
+                            height: 20px;
+                            color: $color-pink;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: -0.5px;
+                            position: absolute;
+                            top: 0px;
+                        }
+                    }
+                }
+            }
+
+        }        
+    }
+}

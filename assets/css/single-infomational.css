@@ -1,0 +1,52 @@
+#single-banner .row .title-review .single-author .date {
+  margin-bottom: 0;
+  display: inline;
+}
+#single-banner .row .title-review .single-author .date span {
+  display: inline;
+}
+#single-banner .row .title-review .single-author .name-author {
+  border-right: 1px solid #81838C;
+  padding-right: 8px;
+}
+
+#content.infomational .box-main-content {
+  gap: 24px;
+}
+#content.infomational .box-main-content .content-table.left {
+  width: 18.2%;
+}
+#content.infomational .box-main-content .content-table.left .table-title ul li a {
+  padding: 0 16px;
+  display: block;
+}
+#content.infomational .box-main-content .content-main {
+  width: 52.3%;
+}
+#content.infomational .box-main-content .content-main .note {
+  padding: 16px;
+}
+#content.infomational .box-main-content .content-main .note h2 {
+  font-size: 20px;
+  line-height: 32px;
+  color: #0082BE;
+}
+#content.infomational .box-main-content .content-main .note .logo {
+  width: 90px;
+  height: 24px;
+  float: right;
+}
+#content.infomational .box-main-content .content-main .product-best li .step {
+  counter-reset: step;
+  list-style: none;
+}
+#content.infomational .box-main-content .content-main .product-best li .step li h4 {
+  padding-left: 50px;
+}
+#content.infomational .box-main-content .content-main .product-best li .step li::before {
+  counter-increment: step;
+  content: "Step " counter(step) ". ";
+  background: none;
+  width: 41px;
+  height: 20px;
+}

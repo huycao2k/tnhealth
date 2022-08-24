@@ -1,0 +1,464 @@
+#content.single-coupon{
+    p{
+        font-size: 14px;
+    }
+    .box-main-content{
+        .content-main{
+            width: 80.2%;
+            margin-bottom: 0;
+            .box-show-code{
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgb(0, 0, 0, 0.5);
+                z-index: 10;
+                .togge{
+                    position: absolute;
+                    top: 24px;
+                    right: 24px;
+                    cursor: pointer;
+                }
+                .show-code{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 16px;
+                    width: 700px;
+                    .show-code-top{
+                        border-radius: 16px 16px 0 0;
+                        background-color: white;
+                        padding: 48px 24px 34px 24px;
+                        h2{
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 32px;
+                            text-align: center;  
+                            text-align: center;  
+                            color: $color-black-blue;  
+                            margin-bottom: 8px;                  
+                        }
+                        p{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            text-align: center;
+                            letter-spacing: -0.5px;   
+                            color: black;
+                            margin-top: 24px;
+                            span{
+                                color: $color-pink;
+                            }
+                        }
+                        .coupon-copy{
+                            position: relative;
+                            margin-top: 26px;
+                            max-width: 284px;
+                            margin: 0 auto;
+                            margin-bottom: 26px;
+                            .coupon-code{
+                                width: 284px;
+                                padding: 10px 16px;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #0D152E;                            
+                            }
+                            .copy{
+                                top: 50%;
+                                transform: translateY(-50%);
+                                right: 5px;
+                            }
+                            .btn{
+                                position: absolute;
+                                width: 90px;
+                                height: 40px;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 24px;
+                                text-align: center;
+                            }
+                        }
+                        .reach-code{
+                            p{
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 5px;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                span{
+                                    img{
+                                        width: 18px;
+                                        height: 18px;
+                                        display: block;
+                                    }
+                                }                            
+                            }
+                        }
+                    }
+                    .show-code-bottom{
+                        background-color: #000000;
+                        border-radius: 0 0 16px 16px;
+                        padding: 30px 80px;
+                        p{
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 32px;
+                            color: $color-pink;
+                            text-align: center;
+                            span{
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: -0.5px;
+                                color: #CFCFCF;
+                                display: block;
+                                span{
+                                    display: inline;
+                                    font-weight: 500;
+                                    color: white;
+                                }
+                            }
+                        }
+                        form{
+                            display: flex;
+                            justify-content: center;
+                            gap: 8px;
+                            input{         
+                                width: 270px;                       
+                                border: 1px solid #EEF2F5;
+                                border-radius: 5px;
+                                outline: none;
+                                padding: 14px 16px;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+                            input.btn{
+                                display: block;
+                                width: 160px;
+                                border: none;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            .title-main{
+                margin-bottom: 34px;
+                h1{                    
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 20px;
+                    letter-spacing: -0.5px;
+                    color: black;
+                    margin-bottom: 16px;
+                }
+                .link{
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    img{
+                        width: 15px;
+                        height: 15px; 
+                        display: block;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: -0.5px;
+                        color: black;
+                    }
+                }
+            }
+            .hot-deal{
+                margin-bottom: 33px;
+                margin-top: 34px;
+                h1{
+                    margin-bottom: 16px;
+                }
+            }
+            .offers{
+                margin-bottom: 60px;
+                h1{
+                    margin-top: 16px;
+                }
+            }
+            .instruction{
+                margin-bottom: 80px;
+                h2{
+                    margin-bottom: 24px;
+                }
+                .step{
+                    counter-reset: step;
+                    list-style: none;
+                    li{
+                        position: relative;
+                        h4{
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #202020; 
+                            background-color: #FDF0EE;   
+                            padding-left: 84px;                        
+                        }
+                    }
+                    li:not(:last-child){
+                        margin-bottom: 58px;
+                    }
+                    li::before{
+                        counter-increment: step;
+                        content: "Step " counter(step) ": ";
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 24px;
+                        position: absolute;
+                        color: $color-pink;
+                        left: 16px;
+                    }
+                }
+            }
+            .faq{
+                .question{
+                    strong{
+                        strong{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px; 
+                        }
+                    }
+                }
+            }
+        }
+        .content-table.left{
+            width: 19.2%;
+            .introduce{
+                margin-bottom: 24px;
+                img{
+                    width: 216px;
+                    height: 216px;
+                }
+                .rate-company{ 
+                    h5{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                    } 
+                }
+                .text-introduce{
+                    position: relative;
+                    p{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: justify;
+                        letter-spacing: -0.5px;                        
+                        color: #000000;
+                        margin-bottom: 0;
+                        padding-bottom: 28px;
+                        text-align: justify;
+                    }
+                    a{
+                        position: absolute;
+                        bottom: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        color: $color-pink;
+                        gap: 12px;
+                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) -18.09%, #FFFFFF 100%);
+                        padding: 50px 50px 2px 50px;
+                        span{
+                            font-size: 14px;
+                            line-height: 20px;
+                            text-align: justify;
+                            letter-spacing: -0.5px;
+                        }
+                    }
+                }
+            }
+            .recommended{
+                margin-top: 24px;
+                .list-post{
+                    ul{
+                        li{
+                            .post-main{
+                                .img-post{
+                                    img{
+                                        height: 130px;
+                                        width: 216px;
+                                    }
+                                }
+                                .date{
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    margin-bottom: 8px;
+                                }
+                                h3{
+                                    a{
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        margin-top: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.coupon-item-detail.coupon{
+    display: block;
+    margin-top: 0;
+}
+.coupon-item-detail{
+    border: 1px solid $color-pink;
+    border-radius: 8px;
+    .coupon-top{
+        background-color: #FDF0EE;
+        border-radius: 8px 8px 0 0;
+        .list-flex{
+            display: flex;
+            .hightlight{
+                width: 32%;
+                border-right: 1px dashed #CFCFCF;
+                position: relative;
+                .inner{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 48px;
+                    color: $color-black-blue;
+                    span{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 40px;
+                        color: $color-black-blue;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .info{
+                padding: 24px 24px 15px 24px;
+                .relative-section{  
+                    h3{                                  
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: black;
+                    }
+                }
+                .des{
+                    margin-bottom: 26px;
+                    .col-list{
+                        list-style: none;
+                        li{
+                            span{
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: -0.5px;
+                                color: #81838C;
+                            }
+                        }
+                    }
+                }
+                .get-code{
+                    background-color: #FDF0EE;
+                    display: block;
+                    width: 184px;
+                    height: 44px;
+                    position: relative;
+                    span{                    
+                        background-image: url('../img/single/bgr-code.svg');    
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-repeat: no-repeat;
+                        background-size: 100% auto;
+                        text-align: center;
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 44px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .coupon-bottom{
+        background-color: #FF7D7D;
+        border-radius: 0 0 8px 8px;
+        .action{
+            .relative-section{
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 30px;
+                align-items: center;
+                .date{
+                    color: white;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: -0.5px;
+                }
+                .send-mail{    
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #677489;
+                    font-weight: bold;
+                    background-image: url('../img/single/email-while.png');
+                    background-position: left center;
+                    background-repeat: no-repeat;
+                    padding-left: 37px;
+                    color: white;
+                    background-color: #FF7D7D;
+                }
+            }
+        }
+    }
+}
+.coupon-item-detail.coupon-light{
+    border: 1px solid #EEF2F5;
+    margin-bottom: 21px;
+   .coupon-top{
+        background-color: white;
+   } 
+   .coupon-bottom{
+        background-color: #FDF0EE;
+        .action{
+            .relative-section{
+                .date{
+                    color: black;
+                }
+                .send-mail{
+                    background-image: url('../img/single/email.png');
+                    color: black;
+                    background-color: #FDF0EE;
+                }
+            }
+        }
+    }
+}
+

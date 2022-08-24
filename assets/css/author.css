@@ -1,0 +1,220 @@
+#reviews-author {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#reviews-author .container .nav-contact {
+  padding: 15px 0;
+}
+#reviews-author .container .nav-contact p span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #393939;
+}
+#reviews-author .container .nav-contact p span a img {
+  margin-left: 5px;
+}
+#reviews-author .container .box-author {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+#reviews-author .container .box-author .info-medical-author {
+  width: 30.45%;
+  border-right: 1px solid #CFCFCF;
+  padding-right: 32px;
+}
+#reviews-author .container .box-author .info-medical-author .fact .img-author {
+  text-align: center;
+}
+#reviews-author .container .box-author .info-medical-author .fact .img-author img {
+  width: 161px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#reviews-author .container .box-author .info-medical-author .fact .info-author {
+  text-align: center;
+  margin-top: 24px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+#reviews-author .container .box-author .info-medical-author .fact .info-author h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #101C3D;
+}
+#reviews-author .container .box-author .info-medical-author .fact .info-author h4 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B54528;
+}
+#reviews-author .container .box-author .info-medical-author .fact .info-author p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #677489;
+  mix-blend-mode: normal;
+}
+#reviews-author .container .box-author .info-medical-author .fact .contact-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  gap: 16px;
+  margin-top: 16px;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education {
+  margin-top: 40px;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author {
+  margin-bottom: 40px;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FF5757;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author .list-experience {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  gap: 24px;
+  border-left: 2px dashed #E2E3E3;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author .list-experience .item-experience {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author .list-experience .item-experience h5 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #393939;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author .list-experience .item-experience h6 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #393939;
+  mix-blend-mode: normal;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author .list-experience .item-experience p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #81838C;
+  mix-blend-mode: normal;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author .list-experience .item-experience::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/author/dote-pink.png");
+  width: 6px;
+  height: 6px;
+  left: -24px;
+  top: 10px;
+}
+#reviews-author .container .box-author .info-medical-author .experience-education .ex-edu-author:last-child {
+  margin-bottom: 0;
+}
+#reviews-author .container .box-author .post-by-author {
+  width: calc(69.63% - 32px);
+}
+#reviews-author .container .box-author .post-by-author h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li {
+  width: calc(33.33% - 14px);
+  margin-bottom: 25px;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main a h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .img-post img {
+  width: 234px;
+  height: 142px;
+  object-fit: cover;
+  overflow: hidden;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #81838C;
+  margin-top: 15px;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .post-title-item {
+  text-decoration: none;
+  display: block;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .post-title-item {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #202020;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .post-title-item h3 {
+  font-family: "Sofia Pro";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .short-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 8px;
+  letter-spacing: -0.5px;
+  color: #81838C;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .author {
+  color: #101C3D;
+  margin-top: 8px;
+}
+#reviews-author .container .box-author .post-by-author .list-post ul li .post-main .author span {
+  font-weight: 600;
+  color: #101C3D;
+}

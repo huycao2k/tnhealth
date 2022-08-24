@@ -1,0 +1,178 @@
+#health-contact {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#health-contact .container .nav-contact {
+  padding-top: 15px;
+}
+#health-contact .container .nav-contact p span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #393939;
+}
+#health-contact .container .nav-contact p span a img {
+  margin-left: 5px;
+}
+#health-contact .container .info-content {
+  width: 832px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#health-contact .container .info-content .contact-in-touch h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #393939;
+  text-align: center;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form {
+  height: 496px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 16px 40px;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-form {
+  margin: 12px 0;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-form p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #81838C;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-form p img {
+  margin-bottom: 4px;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-form .input-info {
+  outline: none;
+  width: 360px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E3;
+  border-radius: 4px;
+  padding: 12px 0 12px 16px;
+  margin-top: 4px;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-form .input-info::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #CFCFCF;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-text {
+  width: 100%;
+  margin-top: 13px;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-text textarea {
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  padding-top: 12px;
+  padding-left: 16px;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-text textarea::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #CFCFCF;
+  margin-top: 4px;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .item-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #81838C;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .rules {
+  margin: 24px 0;
+  text-align: center;
+  padding: 0 132.5px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #81838C;
+}
+#health-contact .container .info-content .contact-in-touch .contact-form form .input-submit {
+  background: #FF5757;
+  border-radius: 4px;
+  align-items: center;
+  padding: 12px 54px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: 0;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#health-contact .container .info-content .contact-office {
+  margin-top: 40px;
+  padding-bottom: 55px;
+}
+#health-contact .container .info-content .contact-office .item-office {
+  display: flex;
+  margin-bottom: 32px;
+}
+#health-contact .container .info-content .contact-office .item-office h3 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #151515;
+  width: 120px;
+}
+#health-contact .container .info-content .contact-office .item-office .focus-contact {
+  margin-left: 35px;
+}
+#health-contact .container .info-content .contact-office .item-office .focus-contact .contact-method {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #393939;
+}
+#health-contact .container .info-content .contact-office .item-office .focus-contact .contact-method img {
+  vertical-align: middle;
+}
+#health-contact .container .info-content .contact-office .item-office .focus-contact .contact-method:last-child {
+  margin-bottom: 0;
+}

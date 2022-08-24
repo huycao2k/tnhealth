@@ -1,0 +1,151 @@
+#single-roundup-banner .row {
+  position: relative;
+  display: block;
+  padding-bottom: 26px;
+}
+#single-roundup-banner .row .title-review {
+  max-width: 747px;
+}
+#single-roundup-banner .row .title-review h1 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+#single-roundup-banner .row .follow-us {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+#single-roundup-banner .row .follow-us p {
+  margin-bottom: 0;
+}
+#single-roundup-banner .row .follow-us .follow-social {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+#single-roundup-banner .row .follow-us .time-post {
+  margin-top: 16px;
+}
+#single-roundup-banner .row .follow-us .time-post p {
+  text-align: right;
+}
+
+.product-list {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 24px;
+}
+.product-list .wp-block-column {
+  position: relative;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  border: 1px solid #CFCFCF;
+  border-radius: 16px;
+  background: white;
+  padding: 56px 56px 24px 56px;
+}
+.product-list .wp-block-column h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+.product-list .wp-block-column ul {
+  padding: 0 20px;
+  list-style-image: url("../img/single/cicer.svg");
+  list-style-position: inside;
+}
+.product-list .wp-block-column ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #81838C;
+}
+.product-list .wp-block-column ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+.product-list .wp-block-column .cocode-inline {
+  width: 100%;
+}
+.product-list .wp-block-column .cocode-inline .pm-button-type4 {
+  margin-top: 16px;
+}
+.product-list .wp-block-column .cocode-inline .has-text-align-center {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  display: block;
+}
+.product-list .wp-block-column .cocode-inline .has-text-align-center b {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+}
+.product-list .wp-block-column .cocode-inline .has-text-align-center .btn {
+  padding: 8px 16px;
+  width: 100%;
+}
+.product-list .wp-block-column .wp-block-image figure picture img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.product-list .special-offer::after {
+  content: "Special offer";
+  text-transform: uppercase;
+  background-image: url("../img/single/sale.svg");
+  position: absolute;
+  width: 160px;
+  height: 39px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  padding: 13px 28.5px 0 28.5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -14px;
+  top: 14px;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
+
+#content .box-main-content .content-main .list-best-product {
+  counter-reset: list;
+  list-style: none;
+}
+#content .box-main-content .content-main .list-best-product li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: black;
+}
+#content .box-main-content .content-main .list-best-product li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}
+#content .box-main-content .content-main .list-best-product li::before {
+  counter-increment: list;
+  content: counter(list) ". ";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: black;
+}

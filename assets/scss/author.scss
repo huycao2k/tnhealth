@@ -1,0 +1,239 @@
+#reviews-author{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    .container{
+        .nav-contact{
+            padding: 15px 0;
+            p{
+                span{
+                    font-family: 'Work Sans', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: -0.5px;
+                    color: #393939;
+                    a{
+                        img{
+                            margin-left:5px;
+                        }
+                    }
+                }
+            }
+        }
+        .box-author{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 32px;
+            .info-medical-author{
+                width: 30.45%;
+                border-right: 1px solid #CFCFCF;
+                padding-right: 32px;
+                .fact{
+                    .img-author{
+                        text-align: center;
+                        img{
+                            width: 161px;
+                            height: 160px;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+
+                    }
+                    .info-author{
+                        text-align: center;
+                        margin-top: 24px;
+                        display: flex;
+                        gap: 8px;
+                        flex-direction: column;
+                        h2{
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 32px;
+                            line-height: 40px;
+                            color: #101C3D;
+                        }
+                        h4{
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #B54528;
+                        }
+                        p{
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            text-align: center;
+                            letter-spacing: -0.5px;
+                            color: #677489; 
+                            mix-blend-mode: normal;
+                        }
+                    }
+                    .contact-author{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        padding: 0px;
+                        gap: 16px;
+                        margin-top: 16px;
+                    }
+                }
+                .experience-education{
+                    margin-top: 40px;
+                    .ex-edu-author{
+                        margin-bottom: 40px;
+                        h2{
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 24px;
+                            text-transform: uppercase;
+                            color: #FF5757;                            
+                        }
+                        .list-experience{
+                            margin-top: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            padding-left: 20px;
+                            gap: 24px;
+                            border-left: 2px dashed #E2E3E3;
+                            .item-experience{
+                                position: relative;
+                                display: flex;
+                                gap: 4px;
+                                flex-direction: column;
+                                h5{
+                                    font-family: 'Work Sans', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 24px;   
+                                    color: #393939;                                    
+                                }
+                                h6{
+                                    font-family: 'Work Sans', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    letter-spacing: -0.5px;  
+                                    color: #393939;
+                                    mix-blend-mode: normal;                                    
+                                }
+                                p{
+                                    font-family: 'Work Sans';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    letter-spacing: -0.5px;
+                                    color: #81838C;
+                                    mix-blend-mode: normal;                                    
+                                }
+                            }
+                            .item-experience::before{
+                                content:'';
+                                position: absolute;
+                                background-image: url('../img/author/dote-pink.png');
+                                width: 6px;
+                                height: 6px;
+                                left: -24px;
+                                top: 10px;
+                            }
+                        }
+                    }
+                    .ex-edu-author:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .post-by-author{
+                width: calc(69.63% - 32px);
+                h1{
+                    font-family: 'Work Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #000000;  
+                    margin-bottom: 24px;                  
+                }
+                .list-post{
+                    ul{
+                        display: flex;
+                        flex-wrap: wrap;
+                        list-style: none;
+                        gap: 15px;
+                        li{
+                            width: calc(33.33% - 14px);
+                            margin-bottom: 25px;
+                            .post-main{
+                                a{
+                                    h3{
+                                        font-size: 18px;
+                                        line-height: 22px;
+                                    }
+                                }
+                            }
+                            .post-main{
+                                .img-post{
+                                    img{
+                                        width: 234px;
+                                        height: 142px;
+                                        object-fit: cover;
+                                        overflow: hidden;
+                                    }
+                                }
+                                p{
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    color: #81838C;
+                                    margin-top: 15px;
+                                }
+                                .post-title-item{
+                                    text-decoration: none;
+                                    display: block;
+                                }
+                                .post-title-item{
+                                    margin-top: 5px;
+                                    font-weight: 600;
+                                    color: #202020;
+                                    h3{      
+                                        font-family: 'Sofia Pro';    
+                                        font-weight: 600;
+                                        font-size: 18px;
+                                        line-height: 120%;
+                                    }
+                                }
+                                .short-content{
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    margin-top: 8px;
+                                    letter-spacing: -0.5px;
+                                    color: #81838C;
+                                }
+                                .author{
+                                    color: #101C3D;   
+                                    margin-top: 8px;                
+                                    span{
+                                        font-weight: 600;
+                                        color: #101C3D;                   
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

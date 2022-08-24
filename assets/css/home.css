@@ -1,0 +1,98 @@
+#home-banner {
+  height: calc(100vh - 260px);
+  display: flex;
+  gap: 6px;
+}
+#home-banner .banner-item .content-item {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home-banner .banner-item .content-item .box-content-item {
+  position: absolute;
+  bottom: 0;
+  padding: 144px 24px 62px 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+#home-banner .banner-item .content-item .box-content-item p {
+  color: white;
+  margin-bottom: 4px;
+}
+#home-banner .banner-item .content-item .box-content-item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+}
+#home-banner .banner-item .content-item .box-content-item .author {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  gap: 8px;
+}
+#home-banner .banner-item .content-item .box-content-item .author span {
+  font-weight: 600;
+}
+#home-banner .col-1 {
+  width: 20.5%;
+  height: 100%;
+}
+#home-banner .col-1 .content-item {
+  height: 100%;
+}
+#home-banner .col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  width: 40%;
+}
+#home-banner .col-2 .content-item {
+  height: 50%;
+}
+#home-banner .col-2 .content-item .box-content-item {
+  width: 100%;
+  padding: 44px 24px 24px 24px;
+}
+#home-banner .col-2 .content-item .box-content-item p {
+  margin-bottom: 0;
+}
+#home-banner .col-2 .content-item .box-content-item a {
+  font-size: 24px;
+}
+#home-banner .col-2 .content-item .box-content-item .author {
+  margin-top: 8px;
+}
+#home-banner .col-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  width: 19%;
+}
+#home-banner .col-3 .content-item {
+  height: 50%;
+}
+#home-banner .col-3 .content-item .box-content-item {
+  padding: 16px;
+}
+#home-banner .col-3 .content-item .box-content-item p {
+  margin-bottom: 0;
+}
+#home-banner .col-3 .content-item .box-content-item a {
+  font-size: 24px;
+}
+#home-banner .col-3 .content-item .box-content-item .author {
+  margin-top: 8px;
+}
+
+#home-slider {
+  background-color: #F9F9F9;
+}
+#home-slider .slide {
+  padding: 48px 0;
+}
